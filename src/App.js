@@ -1,8 +1,12 @@
 import Card from './ui/Card'
+import ComboBox from './ui/ComboBox';
 
 function App() {
+
   return (
-    <Card>Hello</Card>
+    <div>
+      <ComboBox></ComboBox>
+    </div>
   );
 }
 

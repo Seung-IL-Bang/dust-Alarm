@@ -1,7 +1,16 @@
+.block {
+  display: flex;
+  justify-content: center;
+}
 .card {
-  background-color: #333;
-  width: 100px;
-  margin: 0 auto;
-  border-radius: 6px;
+  background-color: orange;
+  padding: 10px;
+  width: 250px;
+  height: 110px;
+  margin: 10px;
+  border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+.title {
+  margin: 5px;
 }
